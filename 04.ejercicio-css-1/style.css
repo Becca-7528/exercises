@@ -1,0 +1,41 @@
+@import 'normalize.css';
+
+.lista li:last-child {
+  background-color: rgb(0, 0, 255);
+}
+.lista li:nth-child(odd) {
+  text-decoration: underline green;
+}
+.lista {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.lista li:nth-child(4) {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#provincias li:last-child {
+  background-color: rgb(0, 0, 255);
+}
+#provincias li:nth-child(odd) {
+  text-decoration: underline green;
+}
+#provincias {
+  list-style: upper-roman;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+#provincias li:nth-child(2) {
+  list-style: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+}

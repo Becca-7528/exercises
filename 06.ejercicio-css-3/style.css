@@ -1,0 +1,100 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+.head {
+  font-weight: bolder;
+  font-size: 250%;
+}
+h2 {
+  font-weight: 400;
+  font-size: 200%;
+}
+
+.phead {
+  font-weight: 100;
+}
+main,
+footer {
+  /* padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+   */
+  padding: 10px 30px 30px 30px;
+}
+article h1 {
+  color: grey;
+  font-size: 150%;
+  padding-bottom: 10px;
+  border-bottom: solid 2px grey;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  padding-bottom: 20px;
+}
+fieldset {
+  border: none;
+  padding: 0;
+}
+fieldset h2 {
+  color: gray;
+  font-weight: bold;
+  border-bottom: solid 2px grey;
+  font-size: 150%;
+}
+label {
+  font-weight: 900;
+  font-size: 80%;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: lightgray;
+  border: none;
+
+  padding: 5px;
+}
+
+button {
+  padding: 10px 30px;
+  color: white;
+  font-weight: 600;
+  background-color: black;
+  border: none;
+  font-size: 80%;
+}
+
+button:hover {
+  background-color: gray;
+  cursor: pointer;
+  color: black;
+}
+@media (min-width: 600px) {
+  article img {
+    float: right;
+    width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  article img {
+    float: right;
+    width: 40%;
+  }
+}

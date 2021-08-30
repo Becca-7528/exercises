@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio HTML 2</title>
+  </head>
+
+  <body>
+    <form action="" method= "GET">
+      <fieldset>
+        <legend>Personal information
+        </legend>
+        <ul>
+          <li>
+            <label for="nombre">
+              First Name
+              <input
+                type="text"
+                name="nombre"
+                id= "nombre"
+                autofocus
+                placeholder="Escribe tu nombre"
+              />
+            </label>
+          </li>
+          <li>
+            <label for="correo">
+              Email
+              <input
+                type="email"
+                required
+                name="correo"
+                id= "correo"
+                placeholder="Tu email"
+              />
+            </label>
+          </li>
+          <li>
+            <label for="direccion" >
+              URL of your Instagram
+              <input
+                type="url"
+                name= "url"
+                id="direccion"
+                placeholder="Escribe la URL de tu página web personal"
+              />
+            </label>
+          </li>
+          <li>
+            <label for="fecha"> 
+              Date of birth
+              <input 
+              type="date" 
+              name="fecha" 
+              id="fecha"
+              max="2003-01-01"
+              required
+              /> 
+            </label>
+          
+          </li>
+          
+      </fieldset>
+      <fieldset>
+        <legend>Choose a time for your meeting:  </legend>
+        <li>
+          
+          <label for="time">Time <input type="time" id="time" min="09:00" max="18:00" required /></label>
+          <small>Office hours are 9am to 6pm</small>
+        </li>
+        <li>
+          <label for="">Date and time <input type="datetime-local" /></label>
+          <small>Meeting confirmation </small>
+        </li>
+
+      </fieldset>
+      <fieldset>
+        <legend>Indicates today's data:</legend>
+        <li>
+          <label for="">Month <input type="month" /></label>
+        </li>
+        <li>
+          <label for="">Week <input type="week" /></label>
+        </li>
+      </fieldset>
+      <fieldset>
+        <legend>Indicate your favorite color and number</legend>
+        <li>
+          <label for="numberfav">Number <input type="number" id="numberfav" min="-10" max="10" /></label>
+        </li>
+        <li>
+          <label for="colorfav">Color <input type="color" id="colorfav" /></label>
+        </li>
+        <li>
+          <label for="">Término de Búsqueda <input type="search" disabled /></label>
+        </li>
+      </fieldset>
+      
+       
+        
+      </ul>
+    
+
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

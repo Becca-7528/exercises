@@ -1,0 +1,30 @@
+@import 'normalize.css';
+
+form {
+  max-width: 800px;
+  min-width: 400px;
+  margin: auto;
+}
+.required {
+  border: solid 1px red;
+}
+
+fieldset {
+  background-color: gainsboro;
+  padding: 1rem;
+}
+
+fieldset:hover {
+  background-color: gray;
+}
+
+.change {
+  border-bottom-width: 5px;
+  border-bottom-color: black;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+}
