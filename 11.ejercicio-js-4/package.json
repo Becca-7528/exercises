@@ -1,0 +1,16 @@
+{
+  "name": "10.ejercicio-js-3",
+  "version": "1.0.0",
+  "description": "Crea un programa que imprima cada 5 segundos el tiempo desde la ejecución del mismo. Formatea el tiempo para que se muestren los segundos, los minutos, las horas y los días desde la ejecución.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --files 'www' --server 'www'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
